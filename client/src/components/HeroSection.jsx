@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom'
 const HeroSection = () => {
 
     const navigate = useNavigate();
+    
 
     return (
         <div className='flex flex-col items-start justify-center gap-4
