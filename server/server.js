@@ -18,7 +18,7 @@ const port = 3000;
 await connectDB();
 
 // Stipe Webhooks Route
-app.use('/api/stipe', express.raw({ type: 'application/json' }), stripeWebhooks)
+app.use('/api/stripe', express.raw({ type: 'application/json' }), stripeWebhooks)
 
 // Middleware
 app.use(express.json());
